@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Event Invitatiob</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="../Event invitation/main.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    </head>
+    <body>
+        <!--HEADER/HOME-->
+        <header id="home">
+            
+            <div class="top_line">
+                <div class="container">
+                    <!--<img src="logo.png">-->
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#celebration">Celebration</a></li>
+                            <li><a href="#rsvp">RSVP</a></li>
+                        </ul>
+                    </nav>                                    
+                </div>
+            </div>
+        
+            <div class="screen">
+                <div class="text">
+                    <h2>We are warmly invited you to</h2>
+                    <h1 class="title">Cocktail Party</h1>
+                    <h2><b>MONSDAY | 31 DECEMBER 2018</b></h2>
+                </div>
+            </div>
+        </header>
+
+        <!--ABOUT-->
+        <div class="description" id="about">
+            <div class="about_opt">
+                <h2 class="line">Get the bubbly. And the liquor. <br> And the wine. And the fruit.<br> Get it all.</h2>
+                <p class="desc-p">New Year's Eve cocktails should make you want to move, not nap. They should inspire dancing and conversation and trips back to the punch bowl or the bar or the fridge. We want bubbles and citrus. We want zippy flavors and bold colors. Your drink should feel celebratory, because that's what you're doing. This isn't the time for an ordinary drink.
+                </p>
+                <p class="desc-p" id="invit-about"><b>And we will gladly provide all this to you!</b></p>
+                <hr>
+            </div>
+
+            <div class="cocktails">
+                <ul class="drink-list">
+                    <li>
+                        <img src="sparkling-julep.jpg" alt="Sparkling Julep" class="menu-item">
+                        <h4 class="menu-title">Sparkling Julep</h4>
+                        <p>Mint julep + bubbly? This cocktail recipe combines the two</p>
+                        <p> delicious classics and is the ultimate way to celebrate.</p>
+                    </li>
+                    <li>
+                        <img src="cran-royale.jpg" alt="Cran Royale" class="menu-item">
+                        <h4 class="menu-title">Cran Royale</h4>
+                        <p>A homemade cranberry simple syrup puts this sparkling</p>
+                        <p>cocktail recipe into fancy party-worthy status.</p>
+                    </li>
+                    <li class="par2">
+                        <img src="srirachaweek_picante_pigeon.jpg" alt="Picante Pigeon" class="menu-item">
+                        <h4 class="menu-title">Picante Pigeon</h4>
+                        <p>Be sure to taste your jalapeños before you muddle them.</p>
+                        <p>They range far and wide on the heat scale.</p>
+                    </li>
+                    <li class="par2">
+                        <img src="boulevardier.jpg" alt="The Boulevardier" class="menu-item">
+                        <h4 class="menu-title">The Boulevardier</h4>
+                        <p>Like a Negroni, but, uh, better.</p><br>
+                    </li>
+                    <li class="par3">
+                        <img src="cranberry-margarita.jpg" alt="Cranberry Margarita" class="menu-item">
+                        <h4 class="menu-title">Cranberry Margarita</h4>
+                        <p>For this Thanksgiving-in-a-glass cocktail, feel free to sub (thawed) frozen</p>
+                        <p>cranberries for fresh.</p>
+                    </li>
+                    <li class="par3">
+                        <img src="APPLE-CIDER-SPRITZ.jpg" alt="Hard Cider Spritz" class="menu-item">
+                        <h4 class="menu-title">Hard Cider Spritz</h4>
+                        <p>Instead of lemon juice, you can use fresh grapefruit or orange juice;</p>
+                        <p>bourbon is a great sub for rye.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <h3>Join us and you will taste even more delicious cocktails!</h3>
+            <!--BUTTON-->
+
+        </div>
+
+        <!--CELEBRATION-->
+        <div id="celebration" class="date-info">
+            <div class="info-screen">
+                <h1>When, Where and How?</h1><br>
+                <ul>
+                    <li>
+                        <h4>When</h4>
+                        <p>31 December 2018</p>
+                        <p>MONDAY</p>
+                        <p>8 in the evening</p>
+                    </li>
+                    <li>
+                        <h4>Where</h4>
+                        <p>THE 21 CLUB</p>
+                        <p>2423 Jacksonville</p>
+                        <p>New York, NY</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--RSVP-->
+        <div id="rsvp" class="respond">
+            <h1 class="respond-title">HOPE U CAN MAKE IT</h1>
+            <p class="res-p">Kindly Respond By December 1st, 2018</p>
+            
+            <!--BUTTON TO OPEN MODAL FORM-->
+            <button class="respond-btn" onclick="document.getElementById('rsvp-but').style.display='block'">RSVP</button>
+
+            <!--THE MODAL-->
+            <div id="rsvp-but" class="modal">
+                <span onclick="document.getElementById('rsvp-but').style.display='none'" class="close" title="Close Modal">&times;</span>
+
+                <!--MODAL CONTENT-->
+                <form class="modal-content animate" action="index.html">
+                    
+                    <div class="modal-container">
+                        <h1>CAN U JOIN US?</h1>
+                        <p>We will be glad to see you!</p>
+                        <input type="text" placeholder="Please, type your name(s)" name="uname" required>
+                        <p>Sincerely, Team THE 21 CLUB</p>
+                        <button type="submit" class="but-style">I Can</button>
+                        <button type="button" class="but-style" onclick="document.getElementById('rsvp-but').style.display='none'" class="canceltbh">Can't</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <footer>Made with <span class="red">♥</span> by <span class="red">Hekkli</span></footer>
+    
+    </body>   
+</html>
