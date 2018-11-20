@@ -1,0 +1,134 @@
+body, html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+    text-align: center;
+}
+
+.parallax_header{
+    background-image: url("../img/bgimg.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_text p{
+    margin: 0;
+}
+
+.header_text{
+    color: #fff;
+    font-size: 30px;
+    padding: 200px 150px 0 150px;
+}
+
+.header_description{
+    background-color: #000;
+    color: #fff;
+    margin-top: 250px;
+    margin-right: 600px;
+    padding: 10px 10px;
+    border-radius: 0 10px 10px 0;
+    opacity: 0.7;
+}
+
+/* places */
+.place_text{
+    text-align: left;
+    padding: 100px 600px 0 25px;
+    color: rgb(0, 0, 0);
+}
+.place_text h2{
+    margin: 0;
+}
+
+.text-right{
+    padding: 100px 25px 0 600px;
+}
+
+.text-bottom{
+    padding: 600px 25px 0 600px;
+}
+
+.text-place{
+    background: rgb(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.parallax_thor{
+    background-image: url("../img/thors well.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_flute_cave{
+    background-image: url("../img/Reed Flute Caves.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_blue_hole{
+    background-image: url("../img/blue-hole-belize.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_causeway{
+    background-image: url("../img/causeway.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_pamukkale{
+    background-image: url("../img/pamukkale-in-turkey-photo-hd.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_giethoorn{
+    background-image: url("../img/Giethoorn_Netherlands_flckr05.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width: 700px){
+    .header_text{
+        font-size: 15px;
+        padding: 50px 150px 0 150px;
+    }
+    .header_description{
+        font-size: 14px;
+        padding: 10px 10px;
+        margin: 0;
+    }
+    .place_text{
+        text-align: left;
+        padding: 0;
+        color: rgb(0, 0, 0);
+    }
+}
